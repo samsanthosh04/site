@@ -125,6 +125,9 @@ body {
   .nav_bar .bar_3 {
     padding: 0;
   }
+  .grid {
+    margin-bottom: 680px;
+  }
   .grid .box1 {
     grid-row-start: 1;
     grid-row-end: 4;
@@ -393,4 +396,211 @@ body {
   font-weight: 600;
   margin: 0 0 15px 0;
   text-transform: uppercase;
+}
+
+.mid1 {
+  margin: auto;
+  width: 80%;
+  margin-top: 20px;
+}
+.mid1 .head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mid1 .head .title1 {
+  color: #111111;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  padding: 0;
+}
+.mid1 .head .title2 {
+  color: #111111;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  display: flex;
+}
+.mid1 .head .title2 p {
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+  padding: 0 10px;
+}
+
+.berf {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #111111;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+}
+
+.star {
+  text-align: center;
+  line-height: 18px;
+  margin-bottom: 5px;
+  color: #ffc107;
+}
+
+.rate {
+  color: #111111;
+  font-weight: 600;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.mid2 {
+  margin: auto;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 24% 24% 24% 24%;
+  justify-content: center;
+  justify-content: space-between;
+}
+.mid2 .box1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.mid2 .box1 .box0_1 {
+  background-image: url(https://preview.colorlib.com/theme/ashion/img/product/product-4.jpg.webp);
+  height: 360px;
+  background-repeat: repeat;
+  background-position: top center;
+  background-size: cover;
+}
+.mid2 .box2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.mid2 .box2 .box0_2 {
+  background-image: url(https://preview.colorlib.com/theme/ashion/img/product/product-5.jpg.webp);
+  height: 360px;
+  background-repeat: repeat;
+  background-position: top center;
+  background-size: cover;
+}
+.mid2 .box3 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.mid2 .box3 .box0_3 {
+  background-image: url(https://preview.colorlib.com/theme/ashion/img/product/product-6.jpg.webp);
+  height: 360px;
+  background-repeat: repeat;
+  background-position: top center;
+  background-size: cover;
+}
+.mid2 .box4 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.mid2 .box4 .box0_4 {
+  background-image: url(https://preview.colorlib.com/theme/ashion/img/product/product-7.jpg.webp);
+  height: 360px;
+  background-repeat: repeat;
+  background-position: top center;
+  background-size: cover;
+}
+.mid2 .box5 {
+  display: flex;
+  flex-direction: column;
+}
+.mid2 .box5 .box0_5 {
+  background-image: url(https://preview.colorlib.com/theme/ashion/img/product/product-8.jpg.webp);
+  height: 360px;
+  background-repeat: repeat;
+  background-position: top center;
+  background-size: cover;
+}
+.mid2 .box6 {
+  display: flex;
+  flex-direction: column;
+}
+.mid2 .box6 .box0_6 {
+  background-image: url(https://preview.colorlib.com/theme/ashion/img/product/product-3.jpg.webp);
+  height: 360px;
+  background-repeat: repeat;
+  background-position: top center;
+  background-size: cover;
+}
+.mid2 .box7 {
+  display: flex;
+  flex-direction: column;
+}
+.mid2 .box7 .box0_7 {
+  background-image: url(https://preview.colorlib.com/theme/ashion/img/product/product-2.jpg.webp);
+  height: 360px;
+  background-repeat: repeat;
+  background-position: top center;
+  background-size: cover;
+}
+.mid2 .box8 {
+  display: flex;
+  flex-direction: column;
+}
+.mid2 .box8 .box0_8 {
+  background-image: url(https://preview.colorlib.com/theme/ashion/img/product/product-1.jpg.webp);
+  height: 360px;
+  background-repeat: repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+@media screen and (max-width: 1400px) {
+  .mid2 {
+    grid-template-columns: 30% 30% 30%;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .mid2 {
+    grid-template-columns: 49% 49%;
+  }
+}
+@media screen and (max-width: 930px) {
+  .head {
+    display: contents;
+    flex-direction: column;
+  }
+  .head .title2 {
+    padding-top: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  .mid1 {
+    margin-top: 680px;
+  }
+}
+.slide_1 {
+  background-image: url(https://preview.colorlib.com/theme/ashion/img/banner/banner-1.jpg.webp);
+  height: 400px;
+  width: 100%;
+  margin-top: 100px;
+  background-position: top center;
+  background-size: cover;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+.slide_1 .container {
+  width: 100%;
+  margin: 0;
+  margin: auto;
+}
+.slide_1 .container .slide {
+  margin: auto;
+  display: flex;
+}
+.slide_1 .container .slide *.carousel-inner {
+  justify-content: center;
+  align-items: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  border: 1px solid red;
 }/*# sourceMappingURL=site.css.map */
