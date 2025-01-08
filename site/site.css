@@ -596,11 +596,4 @@ body {
 .slide_1 .container .slide {
   margin: auto;
   display: flex;
-}
-.slide_1 .container .slide *.carousel-inner {
-  justify-content: center;
-  align-items: center;
-  width: -moz-fit-content;
-  width: fit-content;
-  border: 1px solid red;
 }/*# sourceMappingURL=site.css.map */
