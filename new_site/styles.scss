@@ -1,0 +1,52 @@
+
+@import 'library';
+
+
+.navbar {
+    background-color: black;
+    padding: 0px 0px 0px 10px;
+    margin: 0px;
+    @include barder;
+    display: flex;
+
+    .menu_logo{
+        width: 20%;
+        @include bgb;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        margin: 0 16px 0 0 ;
+        a{
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+        font-family: "Poppins", serif;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 20px;
+        }
+    }
+
+    .menu{
+        width: 80%;
+        display: flex;
+        @include bgw;
+
+        ul {
+            display: flex;
+            width: 800px;
+            @include barder;
+
+            li {
+                list-style: none;
+                @include barder;
+                width: 60px;
+
+            }
+            a{
+                text-decoration: none;
+                color: black;
+            }
+        }
+        }
+}

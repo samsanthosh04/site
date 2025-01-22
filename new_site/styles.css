@@ -1,0 +1,43 @@
+.navbar {
+  background-color: black;
+  padding: 0px 0px 0px 10px;
+  margin: 0px;
+  border: 1px solid red;
+  display: flex;
+}
+.navbar .menu_logo {
+  width: 20%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin: 0 16px 0 0;
+}
+.navbar .menu_logo a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  font-family: "Poppins", serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 20px;
+}
+.navbar .menu {
+  width: 80%;
+  display: flex;
+  background-color: white;
+}
+.navbar .menu ul {
+  display: flex;
+  width: 800px;
+  border: 1px solid red;
+}
+.navbar .menu ul li {
+  list-style: none;
+  border: 1px solid red;
+  width: 60px;
+}
+.navbar .menu ul a {
+  text-decoration: none;
+  color: black;
+}/*# sourceMappingURL=styles.css.map */
