@@ -1,17 +1,22 @@
+body {
+  margin: auto;
+  padding: 0%;
+}
+
 .navbar {
   background-color: black;
   padding: 0px 0px 0px 10px;
   margin: 0px;
-  border: 1px solid red;
   display: flex;
+  height: 100px;
 }
 .navbar .menu_logo {
-  width: 20%;
-  background-color: black;
+  width: 17%;
   display: flex;
   align-items: center;
   justify-content: end;
-  margin: 0 16px 0 0;
+  margin: 0 16px 0 20px;
+  padding-right: 12px;
 }
 .navbar .menu_logo a {
   text-decoration: none;
@@ -20,7 +25,7 @@
   font-family: "Poppins", serif;
   font-weight: 900;
   font-style: normal;
-  font-size: 20px;
+  font-size: 24px;
 }
 .navbar .menu {
   width: 80%;
@@ -28,16 +33,45 @@
   background-color: white;
 }
 .navbar .menu ul {
+  align-items: center;
   display: flex;
-  width: 800px;
-  border: 1px solid red;
+  width: 85%;
+  justify-content: flex-end;
+  background-color: white;
 }
 .navbar .menu ul li {
+  text-wrap: wrap;
   list-style: none;
-  border: 1px solid red;
-  width: 60px;
+  padding: 10px 10px 10px 20px;
+  text-align: center;
 }
-.navbar .menu ul a {
+.navbar .menu ul li a {
   text-decoration: none;
+  font-family: "Poppins", serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 16px;
+  color: #4d4d4d;
+  font-weight: 500;
+  position: relative;
+  transition: 0.1s;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.navbar .menu ul li a::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 6px;
+  left: 0;
+  background-color: yellow;
+  margin-top: 30px;
+  bottom: 0px;
+  transition: linear;
+}
+.navbar .menu ul li a:hover {
   color: black;
+}
+.navbar .menu ul li a:hover:after {
+  width: 100%;
 }/*# sourceMappingURL=styles.css.map */
